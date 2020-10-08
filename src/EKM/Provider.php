@@ -2,9 +2,9 @@
 
 namespace SocialiteProviders\EKM;
 
+use Lcobucci\JWT\Parser;
 use SocialiteProviders\Manager\OAuth2\AbstractProvider;
 use SocialiteProviders\Manager\OAuth2\User;
-use Lcobucci\JWT\Parser;
 
 class Provider extends AbstractProvider
 {
