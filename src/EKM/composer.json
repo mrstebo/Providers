@@ -1,0 +1,22 @@
+{
+    "name": "socialiteproviders/ekm",
+    "description": "EKM OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steven Atkinson",
+            "email": "mrstebouk@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "ext-json": "*",
+        "lcobucci/jwt": "^3.3",
+        "socialiteproviders/manager": "~2.0 || ~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\EKM\\": ""
+        }
+    }
+}
